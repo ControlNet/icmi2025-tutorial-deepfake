@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="description" content="Personal website">
+    <meta name="author" content="Oriane Siméoni">
+
+    <title>CVPR23 Tutorial - Object localization for free</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    
+    <section id="title">
+    <div class="container py-7 bg-orange">
+        <h2 class="text-sm text-dark font-weight-bold text-center">CVPR 2023 Tutorial:</p>
+        <h1 class="text-letter-spacing-xs my-0 text-primary font-weight-bold text-center">
+            Object localization for free:<br>
+            Going beyond self-supervised learning
+        </h1>
+        <p class="text-sm text-dark text-center">Monday, June 19th 2023 - Vancouver</p>
+    </div>
+    </section>
+
+    <section id="bod">
+    <div class="container bg-orange" >								
+        <h2 class="text-uppercase text-letter-spacing-xs my-0 text-primary font-weight-bold text-center">
+            Organizers
+        </h2>
+        <p></p>
+        <p></p>
+        <div class="row text-center">
+            <div class="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                <div class="our-bod">
+                    <div class="single-bod">
+                        <a href="https://osimeoni.github.io/index.html">
+                            <img src="img/OS-crop.png" class="img-fluid cimg" alt="">
+                            <h3 class="text-bold text-name">Oriane Siméoni</h3>
+                        </a>
+                        <p class="text-institute">valeo.ai</p>
+                    </div>
+                </div>
+            </div><!--- END COL -->	
+            <div class="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                <div class="our-bod">
+                    <div class="single-bod">
+                        <a href="https://weidixie.github.io/">
+                            <img src="https://weidixie.github.io/images/weidi_photo.png" class="img-fluid" alt="">
+                            <h3 class="text-bold text-name">Weidi Xie</h3>
+                        </a>
+                        <p class="text-institute">Shanghai Jiao Tong University</p>
+                    </div>						
+                </div>
+            </div><!--- END COL -->	
+            <div class="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                <div class="our-bod">
+                    <div class="single-bod">
+                        <a href="https://tkipf.github.io/">
+                            <img src="https://tkipf.github.io/images/photo.jpg" class="img-fluid" alt="">
+                            <h3 class="text-bold text-name">Thomas Kipf</h3>
+                        </a>
+                        <p class="text-institute">Google Research</p>
+                    </div>					
+                </div>
+            </div><!--- END COL -->
+            <div class="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                <div class="our-bod">
+                    <div class="single-bod">
+                        <a href="https://ptrckprz.github.io/">
+                            <img src="https://ptrckprz.github.io/images/pat_closup.jpg" class="img-fluid" alt="">
+                            <h3 class="text-bold text-name">Patrick Pérez</h3>
+                        </a>
+                        <p class="text-institute">valeo.ai</p>
+                    </div>					
+                </div>
+            </div><!--- END COL -->	  
+        </div><!--- END ROW -->			
+    </div><!--- END CONTAINER -->
+    </section>
+
+    <div class="container py-7 bg-orange">
+        <h2 class="text-uppercase text-letter-spacing-xs my-0 text-primary font-weight-bold text-center">
+          Schedule
+        </h2>
+        <p></p>
+          <div class="sched-div mb-2 center" id="Friday, Nov 13th">
+            <h4 class="mt-0 mb-2 text-dark op-8 font-weight-bold">
+              Monday, June 19th
+            </h4>
+            <p class="text-sm text-dark"><i>Temptative program.</i></p>
+            <ul class="list-timeline list-timeline-primary">
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">08:00 - 08:40</span> - <i>Introduction</i> by <b>Patrick Pérez</b> </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">08:40 - 09:30</span> - <i>Exploiting self-supervised features: unsupervised object localization</i> by <b>Oriane Siméoni</b></p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">09:30 - 09:50</span> - Break</p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column" data-toggle="collapse" data-target="#day-1-item-4">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">09:50 - 10:40</span> - <i> Self-supervised learning integrating object aware priors</i> by <b>Thomas Kipf</b></p>
+                <!-- <p class="my-0 collapse flex-fw text-uppercase text-xs text-dark op-8" id="day-1-item-4"> Talk: OpenData / <span class="text-primary">Room 31</span> </p> -->
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">10:40 - 11:30</span> - <i>Discovering objects with multi-modal signals</i> by <b>Weidi Xie</b> </p>
+              </li>
+              <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                <p class="my-0 text-dark flex-fw text-sm"><span class="text-inverse op-8">11:30 - 12:00</span> - Closing Remarks & QA</p>
+              </li>
+            </ul>
+          </div>
+    </div>
+
+    <div class="container py-7 bg-orange">
+        <h2 class="text-uppercase text-letter-spacing-xs my-0 text-primary font-weight-bold text-center">
+            Summary
+        </h2>
+        <p class="text-sm text-dark">To come.</p>
+    </div>
+
+    <div class="container py-7 bg-orange">
+        <p class="text-sm text-dark text-center">For details, please contact <a href="mailto:oriane.simeoni@valeo.com">Oriane Siméoni</a>.
+            <br>
+            Last updated: 28th or March 2023
+        </p>
+    </div>
+
+  </body>
+
+</html>
