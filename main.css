@@ -4,6 +4,15 @@ body{
     font-size: 0.9em;
 }
 
+a:link{
+  color: #327ecf!important;
+  font-weight: normal;
+}
+
+a {
+  color: #327ecf!important;
+}
+
 h1{
   font-size: 1.8em;
   margin-bottom: 20px;
@@ -13,6 +22,7 @@ h2{
   font-size: 1.4em;
   margin-bottom: 0px;
 }
+
 h4{
   font-size: 1.2em;
 }
