@@ -1,6 +1,26 @@
 body{
     background-color:#eee;
     margin-top:20px;
+    font-size: 0.9em;
+}
+
+h1{
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
+h4{
+  font-size: 1.2em;
+}
+
+.centered-aligned{
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: justify;
 }
 
 .list-timeline {
